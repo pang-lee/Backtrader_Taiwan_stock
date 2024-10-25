@@ -29,6 +29,11 @@ pip install orjson --no-cache-dir
 6. Generate and Caculate the trade of today result, including P&L, winning rate, Position ..ETC
 For more detail, please see the analyze_global_result() function
 7. Every Stock trading log and result would be place in the result folder
+8. You can set the parameter at the Buttom of the Code
+EX:
+is_dyanmic => If you want to use the dynamic profit and loss
+long_short => True if you want to run long strategy, False other wise
+
 
 Run the code:
 python index_v0 (multiprocess of 4 core)
