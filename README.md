@@ -38,3 +38,4 @@ long_short => True if you want to run long strategy, False other wise
 Run the code:
 python index_v0 (multiprocess of 4 core)
 python index_v1 (multiprocess of 16 core)
+python nfs.py (Set the stock data into mongodb)
